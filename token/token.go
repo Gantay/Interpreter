@@ -3,7 +3,7 @@ package token
 type TokenType string
 
 type Token struct {
-	Token   TokenType
+	Type    TokenType
 	Literal string
 }
 
@@ -22,6 +22,11 @@ const (
 	//Delimiters
 	COMMA     = ","
 	SEMICOLON = ";"
+
+	LPAREN = "("
+	RPAREN = ")"
+	LBRACE = "{"
+	RBRACE = "}"
 
 	//Keywords
 	FUNCTION = "FUNCTION"
