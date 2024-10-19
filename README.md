@@ -1,4 +1,1 @@
-[
-Writing An Interpreter In Go
-
-](https://interpreterbook.com)
+[Writing An Interpreter In Go](https://interpreterbook.com)
