@@ -248,7 +248,6 @@ func (p *Parser) parseIntegerLiteral() ast.Expression {
 	}
 
 	lit.Value = value
-
 	return lit
 }
 
